@@ -1,10 +1,10 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "build": 1,
   "minMacOS": "13.0",
   "date": "2026-11-22",
-  "notes": "- Panel boczny dla graczy (kasa i statystyki po prawej stronie ekranu), rangi z prefiksami i limitami, ochrona spawnu i lobby z barierą.\n- Itemy (20 itemów z teksturami i mocami), kostiumy i pety, Studio tekstur i modeli (jak Blockbench).\n- Gotowe skrypty z GitHuba (/rtp, /home, /warp, /tpa i inne), katalog skryptów, własne światy, komendy na przyciskach i dźwigniach.\n- Moderacja: lista banów z unbanem graczy i IP, bany czasowe, zgłoszenia od graczy i od AI.\n- AI w grze: /ai z trybami, efekty tylko dla pytającego, baza wiedzy, kolejka przy limicie dostawcy, limity per ranga.\n- Czat AI: 60 dostawców API, tryb schowka, menedżer modeli Ollamy, dostawcy z abonamentu (Claude Code, Codex, Gemini CLI) bez API.\n- Katalog pluginów z aktualizacjami, edytor kodu z „Sprawdź kod” i „Napraw”, paleta poleceń ⌘K, nowa nawigacja.\n- Poprawka awarii przy starcie (historia zadań).",
-  "downloadURL": "https://github.com/evilesp/craftpanel-releases/releases/download/v1.1.0/CraftPanel-1.1.0.zip",
-  "sha256": "3751cf224134a2747ffda95c6fd3b5a6c81863b1dbfd7b9f2c1104b25c85e317",
-  "size": 21132901
+  "notes": "- Pierścień niewidki ukrywa też zbroję i przedmioty w rękach; kilof-rudoszukacz pokazuje rudy (obrysy przez ściany) i prowadzi do nich liniami; „Hydroklatka” to teraz „Wiadro ratunku”.\n- Naprawiona paczka tekstur (czarno-fioletowe kwadraty, gubienie kostiumów), karta statusu paczki i „Wyślij ponownie graczom”.\n- Pety w nowym wyglądzie, estetyczny tryb zastępczy dla graczy bez paczki, 16 nowych kostiumów; poprawione ładowanie po teleporcie i śmierci; /pet działa dla zwykłych graczy.\n- Komendy na przyciskach: aktywacja prawym kliknięciem, bez niebieskiego podświetlenia, działają też na spawnie z ochroną.\n- Studio tekstur i modeli: nowy wygląd i skróty.\n- Stabilniejsza nawigacja w zakładkach; naprawiony błąd pętli w skryptach /home, /warp, /rtp i innych przy pustej liście.",
+  "downloadURL": "https://github.com/evilesp/craftpanel-releases/releases/download/v1.1.1/CraftPanel-1.1.1.zip",
+  "sha256": "64310da6cdc184ad7ca56617c7a52708f25e6003f2179d52a00b159ed59e33e4",
+  "size": 21277064
 }
